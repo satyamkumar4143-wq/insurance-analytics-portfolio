@@ -99,3 +99,26 @@ Final profitability cannot be concluded without full profit and loss account, in
 - Source logging
 - Insurance business interpretation
 - Pricing adequacy and claim-pressure analysis
+
+## 10. Dashboard Preview
+
+![Project 1 Dashboard](screenshots/Project_1_Dashboard_Final.jpg)
+
+## 11. Project Status
+
+| Item | Status |
+|---|---|
+| Source collection | Completed |
+| Raw extraction | Completed |
+| Cleaned data | Completed |
+| Segment and insurer analysis | Completed |
+| IRDAI claim-pressure layer | Completed |
+| ICICI Lombard mini-case | Completed |
+| Dashboard | Completed |
+| Final summary | Completed |
+| Source log | Completed |
+| GitHub packaging | Completed |
+
+## 12. Career Positioning
+
+This project supports my target profile in General Insurance Pricing and Risk Analytics. It demonstrates the ability to connect premium growth, incurred claims ratio, claim pressure, commission load and expense load into a dashboard-ready business interpretation.
