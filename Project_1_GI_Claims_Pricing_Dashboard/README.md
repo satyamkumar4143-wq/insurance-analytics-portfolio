@@ -22,34 +22,35 @@ The project connects:
 
 ## 3. Data Sources Used
 
-Source	- Data Used	Purpose in Project
-
-GI Council Segment - wise GDPI data	Segment - wise gross direct premium by insurer and segment	Used for segment premium growth analysis and insurer ranking
-IRDAI Annual Report 2024-25, - Table I.14	Segment-wise incurred claims ratio	Used for claim-pressure and pricing adequacy interpretation
-ICICI Lombard NL-4 Public Disclosure	- Gross direct premium and net earned premium	Used for premium base and claim-ratio denominator
-ICICI Lombard NL-5 Public Disclosure	- Net incurred claims	Used for claim-ratio numerator
-ICICI Lombard NL-6 Public Disclosure	 - Gross commission and net commission	Used for commission load analysis
-ICICI Lombard NL-7 Public Disclosure	- Operating expenses related to insurance business	Used for expense load analysis
+| Source                                  | Data Used                                                | Purpose in Project                                           |
+| --------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------ |
+| GI Council Segment-wise GDPI data       | Segment-wise gross direct premium by insurer and segment | Used for segment premium growth analysis and insurer ranking |
+| IRDAI Annual Report 2024-25, Table I.14 | Segment-wise incurred claims ratio                       | Used for claim-pressure and pricing adequacy interpretation  |
+| ICICI Lombard NL-4 Public Disclosure    | Gross direct premium and net earned premium              | Used for premium base and claim-ratio denominator            |
+| ICICI Lombard NL-5 Public Disclosure    | Net incurred claims                                      | Used for claim-ratio numerator                               |
+| ICICI Lombard NL-6 Public Disclosure    | Gross commission and net commission                      | Used for commission load analysis                            |
+| ICICI Lombard NL-7 Public Disclosure    | Operating expenses related to insurance business         | Used for expense load analysis                               |
 
 ## 4. Workbook Structure
 
-Sheet Name	Purpose
+| Sheet Name                  | Purpose                                                                                               |
+| --------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Final_Summary               | Executive summary of project objective, methodology, key findings, recommendations and limitations    |
+| Dashboard_Draft             | Main dashboard with KPI cards, charts, claim-pressure caution box, executive insights and source note |
+| Analysis                    | Segment premium growth, insurer ranking, top 10 insurers and dashboard-ready insights                 |
+| IRDAI_ICR_Data              | Segment-wise incurred claims ratio analysis and premium growth vs claim-pressure interpretation       |
+| ICICI_Company_Case          | Company-level pricing-pressure mini-case using ICICI Lombard NL-4 to NL-7 disclosures                 |
+| Pivot_Auto_Segment_Analysis | Pivot support for segment premium analysis                                                            |
+| Pivot_Insurer_Analysis      | Pivot support for insurer ranking                                                                     |
+| Cleaned_Auto                | Cleaned long-format data created from GI Council source data                                          |
+| Raw_GI_Council              | Raw GI Council source extraction                                                                      |
+| Raw_IRDAI                   | Raw IRDAI Table I.14 extraction                                                                       |
+| Raw_ICICI_NL4               | Raw ICICI Lombard premium extraction                                                                  |
+| Raw_ICICI_NL5               | Raw ICICI Lombard claims extraction                                                                   |
+| Raw_ICICI_NL6               | Raw ICICI Lombard commission extraction                                                               |
+| Raw_ICICI_NL7               | Raw ICICI Lombard operating expenses extraction                                                       |
+| Source_Log                  | Source audit trail showing source, extraction status and sheets where each source is used             |
 
-Final_Summary	- Executive summary of project objective, methodology, key findings, recommendations and limitations
-Dashboard_Draft	- Main dashboard with KPI cards, charts, claim-pressure caution box, executive insights and source note
-Analysis	- Segment premium growth, insurer ranking, top 10 insurers and dashboard-ready insights
-IRDAI_ICR_Data	- Segment-wise incurred claims ratio analysis and premium growth vs claim-pressure interpretation
-ICICI_Company_Case	- Company-level pricing-pressure mini-case using ICICI Lombard NL-4 to NL-7 disclosures
-Pivot_Auto_Segment_Analysis	- Pivot support for segment premium analysis
-Pivot_Insurer_Analysis	- Pivot support for insurer ranking
-Cleaned_Auto	- Cleaned long-format data created from GI Council source data
-Raw_GI_Council	- Raw GI Council source extraction
-Raw_IRDAI	Raw - IRDAI Table I.14 extraction
-Raw_ICICI_NL4	- Raw ICICI Lombard premium extraction
-Raw_ICICI_NL5	- Raw ICICI Lombard claims extraction
-Raw_ICICI_NL6	 - Raw ICICI Lombard commission extraction
-Raw_ICICI_NL7 -	Raw ICICI Lombard operating expenses extraction
-Source_Log	- Source audit trail showing source, extraction status and sheets where each source is used
 
 ## 5. Methodology
 
